@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>About</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Fashion Style Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+<!---End-smoth-scrolling---->
+</head>
+<body>
+		<!--header-->
+			<div class="header">
+				<div class="container">
+					<div class="header-top">
+						<div class="me"><img src="images/IMG_0040.JPG"/></div>
+						<div class="logo">
+							<a href="index.html">Mr<span>.Lei</span></a>
+						</div>
+						<audio controls="controls" autoplay="autoplay">
+							<source src="mp3/kong.mp3" type="audio/ogg">
+							<source src="mp3/kong.mp3" type="audio/mpeg">
+						</audio>
+						<div class="top-menu">
+							<span class="menu"><img src="images/nav.png" alt=""/> </span>
+								<ul>
+								<li><a href="index.html">home</a></li>
+								<li><a href="about.html" class="active">Sports</a></li>
+								<li><a href="brothers.html">Beauty and sports car</a></li>
+								<li><a href="gallery.html">brothers</a></li>
+								<li><a href="typo.html">Learn</a></li>
+							</ul>
+						</div>
+						 <!--script-nav-->
+						 <script>
+						 $("span.menu").click(function(){
+						 $(".top-menu ul").slideToggle("slow" , function(){
+						 });
+						 });
+						 </script>
+						<div class="clerfix"></div>
+					</div>
+				</div>
+			</div>
+		<!--header-->
+		<div class="header-banner">
+			<div class="container">
+				<h3>生命在于运动</h3>
+			</div>
+			</div>
+	<!--about-->
+			<div class="about-section">
+				<div class="container">
+						<div class="about-grids">
+							<div class="col-md-4 about-grid">
+								<h3>Sports</h3>
+								<img src="images/113.jpg" class="img-responsive" alt="/">
+								<div class="about1">
+									<h4>运动是一切生命的源泉</h4>
+									<p>泰戈尔在诗中说，天空没有翅膀的影子，但我已飞过;艾青对朋友说，也许有人到达不了彼岸，但我们共同拥有大海。也许你们没有显赫的成绩，但运动场上留下了你们的足迹。也许你们没有奖品，但我们心中留下了你们拼搏的身影。所有的努力都是为了迎接这一刹那，所有的拼搏都是为了这一声令下。</p>
+								</div>
+								<div class="about2">
+								<h4>静止便是死亡，只有运动才能敲开永生的大门</h4>
+								<p>人生的路，有坦途，也有坎坷;做过的岁月，有欢笑，也有苦涩，泪水告诉我一个跌倒的故事，汗水使我多了一份沉重，几多成熟。</p>
+								</div>
+								</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		<!--about-->
+				<div class="ourteam">
+					<div class="container">
+						<h3>Me</h3>
+						<div class="team-grids">
+						<div class="col-md-3 team-grid">
+							<img src="images/110.png" class="img-responsive" alt="" />
+							<h4>Mr.lei</h4>
+							<p>体育是在理性轨道上运行的竞争机制</p>
+						</div>
+						<div class="col-md-3 team-grid">
+							<img src="images/112.png" class="img-responsive" alt="" />
+							<h4>Mr.lei</h4>
+							<p>体育是全社会共同的语言</p>
+						</div>
+						<div class="col-md-3 team-grid">
+							<img src="images/1234.png" class="img-responsive" alt="" />
+							<h4>Mr.lei</h4>
+							<p>晚霞诚可贵，健康价更高，欲图享老福，运动要抓牢</p>
+						</div>
+						<div class="col-md-3 team-grid">
+							<img src="images/4321.png" class="img-responsive" alt="" />
+							<h4>Mr.lei</h4>
+							<p>长期的身体毛病使最光明的前途蒙上阴暗，而强健的活力就使不幸的境遇也能放金光。</p>
+						</div>
+					<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+					<div class="clearfix"> </div>
+				</div>
+					<div class="copy">
+						<p>Copyright &copy; 2017.Company name All rights reserved.Mr.lei<a href="http://www.cssmoban.com/" target="_blank" title="模板之家">home</a> </p>
+					</div>
+					<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#head" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>	
+<!--footer-->			
+</body>
+</html>
